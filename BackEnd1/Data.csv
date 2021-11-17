@@ -1,0 +1,38 @@
+Location,Gordons,N,
+Location,Witte,N,
+Location,Sellery,N,
+Location,Walgreens,N,
+Location,Library Mall,N,
+Location,Bascom Hall,N,
+Location,Dejope,N,
+Location,Ogg,N,
+Location,Memorial Union,N,
+Location,Hub,N,
+Location,Lakeshore,N,
+Location,Ogg Test,Y,
+Location,Park St,Y,
+Location,Porter Boathouse,Y,
+Location,Frank Holt Center,Y,
+Location,Kohl Center,Y,
+Location,Alliant Energy Center,Y,
+Edge ,Gordons,Kohl Center,2
+Edge ,Witte,Gordons,1
+Edge ,Sellery,Gordons,1
+Edge ,Walgreens,Gordons,1
+Edge ,Library Mall,Bascom Hall,4
+Edge ,Bascom Hall,Library Mall,4
+Edge ,Dejope,Bascom Hall,7
+Edge ,Ogg,Ogg Test,0
+Edge ,Memorial Union,Library Mall,1
+Edge ,Hub,Library Mall,2
+Edge ,Lakeshore,Bascom Hall,6
+Edge ,Gordons,Ogg Test,1
+Edge ,Witte,Walgreens,1
+Edge ,Sellery,Walgreens,1
+Edge ,Walgreens,Library Mall,2
+Edge ,Library Mall,Walgreens,2
+Edge ,Bascom Hall,Dejope,7
+Edge ,Dejope,Porter Boathouse,4
+Edge ,Ogg,Walgreens,1
+Edge ,Lakeshore,Porter Boathouse,1
+Edge ,Lakeshore,Frank Holt Center,0
